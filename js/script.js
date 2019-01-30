@@ -8,7 +8,15 @@ var colors = [
 ];
 
 var squares = document.querySelectorAll(".square");
+var pickedColor = document.querySelector("#pickedColor");
+    pickedColor.innerHTML = randomColor();
 
 for (var i=0; i<squares.length; i++) {
     squares[i].style.backgroundColor = colors[i];
+}
+
+
+function randomColor() {
+    var random = Math.floor(Math.random() * colors.length);
+    return colors[random];
 }
