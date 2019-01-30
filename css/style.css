@@ -7,3 +7,16 @@ h1 {
     margin: 0 auto;
     text-align: center;
 }
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: red;
+}
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+}
